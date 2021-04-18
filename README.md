@@ -4,7 +4,8 @@ Skoleni od Raghav Pal
     Web page
     https://www.cypress.io/
 
-    Install
+    Install on Ubuntu
+    https://github.com/nodesource/distributions/blob/master/README.md#deb
     sudo apt install npm
     npm install cypress
     Visual Studio Code
