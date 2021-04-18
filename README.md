@@ -9,6 +9,7 @@ Skoleni od Raghav Pal
     sudo apt install npm
     npm install cypress
     Visual Studio Code
+    https://docs.cypress.io/guides/tooling/IDE-integration#Writing-Tests -> jsconfig.json
 
 
     You can now open Cypress by running: 
