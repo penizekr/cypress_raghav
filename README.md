@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3
 
 Folder with project: /home/rp/cypress_raghav
 
-npm init -y
 npm install cypress
+npm init -y
 npx cypress open
 
