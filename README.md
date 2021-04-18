@@ -9,7 +9,6 @@ Skoleni od Raghav Pal
     sudo apt install npm
     npm install cypress
     Visual Studio Code
-    https://marketplace.visualstudio.com/items?itemName=JosefBiehler.cypress-fixture-intellisense
 
 
     You can now open Cypress by running: 
