@@ -7,9 +7,32 @@ it('Gets, types and asserts', () => {
   cy.contains('get').click() //prvni element, ktery obsahuje "get"
  })
 
- //it('Gets, contains', () => {
- // cy.visit('https://example.cypress.io/')
-// })
+ it('login test', () => {
+  cy.visit('https://opensource-demo.orangehrmlive.com/')
+  cy.get('#txtUsername').type('Admin')
+  cy.get('#txtPassword').type('admin123')
+  cy.get('#btnLogin').click()
+  cy.get('#menu_admin_viewAdminModule > b').click()
+  cy.get('#btnAdd').click()
+ })
 
+ it.only('assertions', () => {
+  cy.visit('example.cypress.io')
+  cy.contains('get').click() 
+  cy.get('#query-btn')
+  //Implicit assertions:
+          .should('contain', 'Button')
+          .should('have.class', 'query-btn btn btn-primary')
+          .should('be.visible')
+          .should('be.enabled')
+          .and('have.id', 'query-btn') 
 
- 
+ //Explicit assertions:
+ expect(true).to.be.true
+
+ let slovo='pokus'
+ expect(slovo).to.be.equal('pokus')
+
+assert.equal(4,4,'rovna se')
+ })
+
