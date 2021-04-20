@@ -20,6 +20,9 @@ Skoleni od Raghav Pal
 
 
     https://docs.cypress.io/guides/overview/why-cypress#In-a-nutshell
+    
+    Cypress commands:
+    https://docs.cypress.io/api/commands/
 
 Raghav Pav
 https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
@@ -29,4 +32,6 @@ Folder with project: /home/rp/cypress_raghav
 npm init -y
 
 npx cypress open
+
+
 
