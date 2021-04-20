@@ -9,6 +9,7 @@ Skoleni od Raghav Pal
     sudo apt install npm
     npm install cypress
     Visual Studio Code
+    install into VSC extension: Cypress Snippets
     https://docs.cypress.io/guides/tooling/IDE-integration#Writing-Tests -> jsconfig.json
 
 
