@@ -38,6 +38,7 @@ testing page:
 example.cypress.io
 
 Assertions:
+https://docs.cypress.io/guides/references/assertions
 Assertions describe the desired state of your elements, your objects, and your application.
 should contain
 should have.
