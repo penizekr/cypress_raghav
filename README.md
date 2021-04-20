@@ -34,5 +34,14 @@ npm init -y
 
 npx cypress open
 
+testing page:
+example.cypress.io
+
+Assertions:
+Assertions describe the desired state of your elements, your objects, and your application.
+should contain
+should have.
+
+
 
 
