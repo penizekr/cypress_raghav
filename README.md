@@ -78,7 +78,11 @@ https://testersdock.com/html-reports-cypress/
 do souboru package.json pridan radek "pust_a_vygeneruj": "npm run test:cli; npm run create:html:report" -> spusti testy a vygeneruje html mochawsome report.
 
 command line run\
-npx cypress run - spusteni command line\
+npx cypress run -> spusteni v command line\
+npx cypress run -> spusteni v command line + otevre GUI\
+npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test\
+
+
 npx cypress open - spusteni gui\
 
 
