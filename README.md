@@ -45,7 +45,9 @@ Cypress\
         command line run - HOTOVO\
 	https://www.youtube.com/watch?v=QnmlDr037d8&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=6 \
         integration with Jenkins - TODO\
-        https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20
+        https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20 \
+	integration with GitHub/Lab - TODO \
+	
 
 Cypress\
 	reporting (Mochawsome)- HOTOVO\
