@@ -52,7 +52,7 @@ Cypress\
     
     
     
-Raghav Pal
+Vseobecne Raghav Pal
 
 https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
 
@@ -70,6 +70,12 @@ https://docs.cypress.io/guides/references/assertions
 Assertions describe the desired state of your elements, your objects, and your application.
 should contain
 should have.
+
+Cypress reporting\
+https://testersdock.com/html-reports-cypress/
+\
+do souboru package.json pridan radek "pust_a_vygeneruj": "npm run test:cli; npm run create:html:report" -> spusti testy a vygeneruje html mochawsome report.
+
 
 
 
