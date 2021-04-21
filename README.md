@@ -1,5 +1,5 @@
 # cypress_raghav
-Skoleni od Raghav Pal
+
 
     Web page
     https://www.cypress.io/
@@ -34,7 +34,8 @@ Skoleni od Raghav Pal
         cypress reports
     
     
-Raghav Pav
+Skoleni od Raghav Pal
+
 https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
 
 Folder with project: /home/rp/cypress_raghav
