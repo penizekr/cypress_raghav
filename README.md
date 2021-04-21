@@ -96,7 +96,10 @@ https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinl
 \
 v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test\
 
-Jenkins GUI: http://127.0.0.1:8080/
+Jenkins GUI: http://127.0.0.1:8080/ \
+
+Admin user: rp \
+Admin password l..m.. \
 
 
 
