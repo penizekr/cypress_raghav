@@ -43,11 +43,12 @@ Cypress\
 
 Cypress\
         command line run - TODO\
+	https://www.youtube.com/watch?v=QnmlDr037d8&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=6
         integration with Jenkins - TODO\
         https://www.youtube.com/watch?v=yM38NmF-LC4&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp
 
 Cypress\
-	reporting (Mochawsome)- HOTOVO
+	reporting (Mochawsome)- HOTOVO\
 	https://testersdock.com/html-reports-cypress/
     
     
@@ -75,6 +76,10 @@ Cypress reporting\
 https://testersdock.com/html-reports-cypress/
 \
 do souboru package.json pridan radek "pust_a_vygeneruj": "npm run test:cli; npm run create:html:report" -> spusti testy a vygeneruje html mochawsome report.
+
+command line run\
+npx cypress run - spusteni command line\
+npx cypress open - spusteni gui\
 
 
 
