@@ -82,9 +82,10 @@ npx cypress run -> spusteni v command line\
 npx cypress run -> spusteni v command line + otevre GUI\
 npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test\
 npx cypress run --browser chrome -> pusti s Chrome
-
-
 npx cypress open - spusteni gui\
+
+vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run\
+
 
 
 
