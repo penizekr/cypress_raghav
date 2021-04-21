@@ -83,14 +83,16 @@ npx cypress run -> spusteni v command line\
 npx cypress run -> spusteni v command line + otevre GUI\
 npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test\
 npx cypress run --browser chrome --headless -> pusti s Chrome
-npx cypress open - spusteni gui\
+npx cypress open - > spusteni gui\
+\
+npm run test -> spusti script "test", ktery je definovany v package.json\
 
 vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run\
 
 integration with Jenkins\
 https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20 \
 \
-v souboru package.json jsou scripty\
+v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test\
 
 
 
