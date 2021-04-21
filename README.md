@@ -29,6 +29,9 @@ Skoleni od Raghav Pal
     https://www.youtube.com/watch?v=yM38NmF-LC4&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp
         command line run
         integration with Jenkins
+        
+    https://testersdock.com/html-reports-cypress/
+        cypress reports
     
     
 Raghav Pav
