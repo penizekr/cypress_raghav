@@ -75,7 +75,8 @@ should have.
 Cypress reporting\
 https://testersdock.com/html-reports-cypress/
 \
-do souboru package.json pridan radek "pust_a_vygeneruj": "npm run test:cli; npm run create:html:report" -> spusti testy a vygeneruje html mochawsome report.
+do souboru package.json pridan radek "pust_a_vygeneruj": "npm run test:cli; npm run create:html:report" -> spusti testy a vygeneruje html mochawsome report.\
+report je v adresari TestReport\
 
 command line run\
 npx cypress run -> spusteni v command line\
