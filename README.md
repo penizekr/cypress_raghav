@@ -24,7 +24,13 @@ Skoleni od Raghav Pal
     
     Cypress commands:
     https://docs.cypress.io/api/commands/
-
+    
+    Trainings:
+    https://www.youtube.com/watch?v=yM38NmF-LC4&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp
+        command line run
+        integration with Jenkins
+    
+    
 Raghav Pav
 https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
 
