@@ -47,7 +47,7 @@ Cypress\
         https://www.youtube.com/watch?v=yM38NmF-LC4&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp
 
 Cypress\
-	reporting - TODO\
+	reporting (Mochawsome)- HOTOVO
 	https://testersdock.com/html-reports-cypress/
     
     
