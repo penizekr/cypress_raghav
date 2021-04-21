@@ -38,13 +38,13 @@ Prehled skoleni
 Virtualbox: cypress
 
 Cypress
-	vseobecne - HOTOVO
-	Raghav Pav https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
+        vseobecne - HOTOVO
+        Raghav Pav https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
 
 Cypress
-	command line run - TODO
-	integration with Jenkins - TODO
-	https://www.youtube.com/watch?v=yM38NmF-LC4&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp
+        command line run - TODO
+        integration with Jenkins - TODO
+        https://www.youtube.com/watch?v=yM38NmF-LC4&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp
 
 Cypress
 	reporting - TODO
