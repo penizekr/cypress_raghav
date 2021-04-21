@@ -87,6 +87,11 @@ npx cypress open - spusteni gui\
 
 vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run\
 
+integration with Jenkins\
+https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20 \
+\
+v souboru package.json jsou scripty\
+
 
 
 
