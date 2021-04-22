@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		
+		<title>mujWeb
+		</title>
 
+		<style>
+		.my-pokus {
+		color: black;
+		}
+		.my-button {
+		background-color: green;
+		color: white;
+		border: none;
+		padding: 15px 32px;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div class="my-pokus"> pokus </div>
+		<button class="my-button" onclick="myFunction()">OK</button>
+		<div id="myDiv"></div>
+
+		<script>
+		function myFunction() {
+		myDiv.insertAdjacentHTML('afterend', "ahoj");
+		}
+		</script>
+	</body>
+</html>
