@@ -104,8 +104,10 @@ Jenkins GUI: http://127.0.0.1:8080/ \
 Admin user: rp \
 Admin password l..m.. \
 
+integration with GitHub/Lab\
 
-
+simple web server: \
+https://github.com/http-party/http-server \
 
 
 
