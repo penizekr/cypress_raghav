@@ -97,6 +97,9 @@ vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run\
 integration with Jenkins\
 https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20 \
 \
+nutno doinstalovat:\
+apt-get install libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb\
+\
 v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test\
 
 start Jenkins:\
