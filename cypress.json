@@ -2,7 +2,13 @@
 
 "watchForFileChanges":true,
 "defaultCommandTimeout":6000,
-"chromeWebSecurity": false
+"chromeWebSecurity": false,
 
+"reporter": "../node_modules/mochawesome/src/mochawesome.js",
+"reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+}
 
 }
