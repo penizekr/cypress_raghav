@@ -110,6 +110,9 @@ Jenkins GUI: http://127.0.0.1:8080/ \
 Admin user: rp \
 Admin password l..m.. \
 
+konfigurace Jenkinsu:\
+https://mudithaperera.medium.com/configure-cypress-on-jenkins-ccf66a3b2366 \
+
 integration with GitHub/Lab\
 
 simple web server: \
