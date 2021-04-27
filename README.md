@@ -85,7 +85,6 @@ report je v adresari TestReport\
 
 command line run\
 npx cypress run -> spusteni v command line\
-npx cypress run -> spusteni v command line + otevre GUI\
 npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test\
 npx cypress run --browser chrome --headless -> pusti s Chrome
 npx cypress open - > spusteni gui\
