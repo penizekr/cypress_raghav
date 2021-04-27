@@ -7,7 +7,7 @@
     Install on Ubuntu
     https://github.com/nodesource/distributions/blob/master/README.md#deb
     sudo apt install npm
-    npm install cypress  -> nutne instalovat v adresari, ze ktereho chci poustet testy
+    npm install cypress
     Visual Studio Code
     install into VSC extension: Cypress Snippets, Cypress Helper
     https://docs.cypress.io/guides/tooling/IDE-integration#Writing-Tests -> jsconfig.json
@@ -85,6 +85,7 @@ report je v adresari TestReport\
 
 command line run\
 npx cypress run -> spusteni v command line\
+npx cypress run -> spusteni v command line + otevre GUI\
 npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test\
 npx cypress run --browser chrome --headless -> pusti s Chrome
 npx cypress open - > spusteni gui\
