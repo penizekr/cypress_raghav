@@ -113,6 +113,9 @@ Admin password l..m.. \
 konfigurace Jenkinsu:\
 https://mudithaperera.medium.com/configure-cypress-on-jenkins-ccf66a3b2366 \
 
+povoleni zapisu pro Jenkins:\
+sudo chmod -R 757 /home/rp/cypress_raghav
+
 integration with GitHub/Lab\
 
 simple web server: \
