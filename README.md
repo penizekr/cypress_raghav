@@ -113,6 +113,13 @@ Admin password l..m.. \
 konfigurace Jenkinsu:\
 https://mudithaperera.medium.com/configure-cypress-on-jenkins-ccf66a3b2366 \
 
+General -> use custom workspace -> directory -> /home/rp/cypress_raghav \
+Build Environment -> Provide Node & npm bin/ folder to PATH -> ANO \
+Build -> execute shell -> cypress run \
+
+Install NodeJS plugin>\
+Manage Jenkins-> Manage Plugins->NodeJS Plugin
+
 povoleni zapisu pro Jenkins:\
 sudo chmod -R 757 /home/rp/cypress_raghav
 
