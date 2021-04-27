@@ -7,7 +7,7 @@
     Install on Ubuntu
     https://github.com/nodesource/distributions/blob/master/README.md#deb
     sudo apt install npm
-    npm install cypress
+    npm install cypress  -> nutne instalovat v adresari, ze ktereho chci poustet testy
     Visual Studio Code
     install into VSC extension: Cypress Snippets, Cypress Helper
     https://docs.cypress.io/guides/tooling/IDE-integration#Writing-Tests -> jsconfig.json
