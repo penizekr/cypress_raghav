@@ -73,6 +73,7 @@ npm run test -> spusti script "test", ktery je definovany v package.json
 - Jenkins GUI: http://127.0.0.1:8080/ 
 - Admin user: rp 
 - Admin password l..m.. 
+-sudo chmod -R 757 /home/rp/cypress_raghav -> aby mohl Jenkins zapisovat do /home/rp/cypress_raghav/
 
 ###  Cypress integration with GitHub/Lab - TODO 
 
