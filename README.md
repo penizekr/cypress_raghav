@@ -100,7 +100,7 @@ https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinl
 nutno doinstalovat:\
 apt-get install libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb\
 \
-v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test\
+
 
 start Jenkins:\
 sudo systemctl start jenkins\
@@ -115,7 +115,7 @@ https://mudithaperera.medium.com/configure-cypress-on-jenkins-ccf66a3b2366 \
 
 General -> use custom workspace -> directory -> /home/rp/cypress_raghav \
 Build Environment -> Provide Node & npm bin/ folder to PATH -> ANO \
-Build -> execute shell -> cypress run \
+Build -> execute shell -> cypress run \ (v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test,npm run pust_a_vygeneruj)\
 
 Install NodeJS plugin>\
 Manage Jenkins-> Manage Plugins->NodeJS Plugin
