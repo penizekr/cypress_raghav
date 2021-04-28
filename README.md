@@ -12,7 +12,7 @@ Install on Ubuntu
 - install Visual Studio Code pres Ubuntu software
 - install into VSC extension: Cypress Snippets, Cypress Helper
 - https://docs.cypress.io/guides/tooling/IDE-integration#Writing-Tests -> jsconfig.json
-
+.-
 - You can now open Cypress by running: 
 node_modules/.bin/cypress open (v adresari “/home/rp/cypress_raghav")
 
@@ -36,8 +36,10 @@ Your first test
 - npm init -y
 - npx cypress open -> otevreni cypress GUI
 - testing page: example.cypress.io
+- v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test
 - Informace o package.json souboru: https://www.vzhurudolu.cz/prirucka/package-json
 
+.-
 - Assertions:
 https://docs.cypress.io/guides/references/assertions
 Assertions describe the desired state of your elements, your objects, and your application.
@@ -48,57 +50,36 @@ should have.
 https://testersdock.com/html-reports-cypress/
 do souboru package.json pridan radek "pust_a_vygeneruj": "npm run test:cli; npm run create:html:report" -> spusti testy a vygeneruje html mochawsome report.
 report je v adresari TestReport
+spusteni: npm run pust_a_vygeneruj
 
 - command line run
 npx cypress run -> spusteni v command line
-npx cypress run -> spusteni v command line + otevre GUI\
-npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test\
+npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test
 npx cypress run --browser chrome --headless -> pusti s Chrome
-npx cypress open - > spusteni gui\
-\
-npm run test -> spusti script "test", ktery je definovany v package.json\
+npx cypress open - > spusteni gui
+npm run test -> spusti script "test", ktery je definovany v package.json
 
-vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run\
+	vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run
 
 
-Cypress\
-        command line run - HOTOVO\
-	https://www.youtube.com/watch?v=QnmlDr037d8&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=6 \
-        integration with Jenkins - TODO\
-        https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20 \
-	integration with GitHub/Lab - TODO \
+### Cypress  command line run - HOTOVO
+	https://www.youtube.com/watch?v=QnmlDr037d8&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=6 
 	
-
-Cypress\
-	reporting (Mochawsome)- HOTOVO\
+### Cypress reporting (Mochawsome)- HOTOVO
 	https://testersdock.com/html-reports-cypress/
+       
+###  Cypress  integration with Jenkins - TODO
+        https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20
+- Jenkins GUI: http://127.0.0.1:8080/ 
+- Admin user: rp 
+- Admin password l..m.. 
 
-    
-    
-    
-Vseobecne Raghav Pal
+###  Cypress integration with GitHub/Lab - TODO 
 
-https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
-
-
-
-
-integration with Jenkins\
-https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20 \
-\
-v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test\
-
-Jenkins GUI: http://127.0.0.1:8080/ \
-
-Admin user: rp \
-Admin password l..m.. \
-
-integration with GitHub/Lab\
-
-simple web server: \
-https://github.com/http-party/http-server \
-
-npx http-server -p 5555 -> web na 127.0.0.1, v adresari odkus se web server spousti udelat soubor index.html
+- integration with GitHub/Lab
+- simple web server: 
+- https://github.com/http-party/http-server 
+- npx http-server -p 5555 -> web na 127.0.0.1, v adresari odkus se web server spousti udelat soubor index.html
 
 
 
