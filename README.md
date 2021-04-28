@@ -68,7 +68,7 @@ npm run test -> spusti script "test", ktery je definovany v package.json
 ### Cypress reporting (Mochawsome)- HOTOVO
 	https://testersdock.com/html-reports-cypress/
        
-###  Cypress  integration with Jenkins - TODO
+###  Cypress  integration with Jenkins - HOTOVO
         https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20
 - Jenkins GUI: http://127.0.0.1:8080/ 
 - Admin user: rp 
