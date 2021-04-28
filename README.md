@@ -73,7 +73,9 @@ npm run test -> spusti script "test", ktery je definovany v package.json
 - Jenkins GUI: http://127.0.0.1:8080/ 
 - Admin user: rp 
 - Admin password l..m.. 
--sudo chmod -R 757 /home/rp/cypress_raghav -> aby mohl Jenkins zapisovat do /home/rp/cypress_raghav/
+- sudo chmod -R 757 /home/rp/cypress_raghav -> aby mohl Jenkins zapisovat do /home/rp/cypress_raghav/
+- install NodeJS plugin into Jenkins
+- Jenkins -> New item -> Freestyle project -> Advance -> Use custom workspace (/home/rp/cypress_raghav) -> Provide Node & npm bin/ folder to PATH -> Add a build step->Execute shell (cypress run - spusti Cypress testy, npm run pust_a_vygeneruj - spusti Cypress testy a vygeneruje Mochawsome report)
 
 ###  Cypress integration with GitHub/Lab - TODO 
 
