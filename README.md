@@ -97,31 +97,12 @@ vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run\
 integration with Jenkins\
 https://www.youtube.com/watch?v=UIlknGqAoiE&list=PLUDwpEzHYYLu4jKg-rNSKH3aJeBinlPXp&index=20 \
 \
-nutno doinstalovat:\
-apt-get install libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb\
-\
-
-
-start Jenkins:\
-sudo systemctl start jenkins\
+v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test\
 
 Jenkins GUI: http://127.0.0.1:8080/ \
 
 Admin user: rp \
 Admin password l..m.. \
-
-konfigurace Jenkinsu:\
-https://mudithaperera.medium.com/configure-cypress-on-jenkins-ccf66a3b2366 \
-
-General -> use custom workspace -> directory -> /home/rp/cypress_raghav \
-Build Environment -> Provide Node & npm bin/ folder to PATH -> ANO \
-Build -> execute shell -> cypress run \ (v souboru package.json jsou scripty, ktere je mozne poustet. Napr. npm run test,npm run pust_a_vygeneruj)\
-
-Install NodeJS plugin>\
-Manage Jenkins-> Manage Plugins->NodeJS Plugin
-
-povoleni zapisu pro Jenkins:\
-sudo chmod -R 757 /home/rp/cypress_raghav
 
 integration with GitHub/Lab\
 

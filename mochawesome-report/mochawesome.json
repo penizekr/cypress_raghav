@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 3,
-    "passes": 3,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-04-27T13:19:10.046Z",
-    "end": "2021-04-27T13:19:42.790Z",
-    "duration": 32744,
-    "testsRegistered": 3,
+    "start": "2021-04-28T06:58:37.173Z",
+    "end": "2021-04-28T06:58:44.787Z",
+    "duration": 7614,
+    "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b325325f-d62f-4945-a6ca-874a53636065",
+      "uuid": "1f157063-a8a7-49a7-a818-83294bb84b94",
       "title": "",
       "fullFile": "cypress/integration/my_firs_test.js",
       "file": "cypress/integration/my_firs_test.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4821e889-63f2-486b-b485-97c7db905b8f",
+          "uuid": "920b1c59-cbd9-4def-8236-b932256ceb1c",
           "title": "My First Test",
           "fullFile": "",
           "file": "",
@@ -35,46 +35,10 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "Gets, types and asserts",
-              "fullTitle": "My First Test Gets, types and asserts",
-              "timedOut": null,
-              "duration": 12588,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "cy.visit('https://www.bing.com');\ncy.get('#sbi_b'); //musi se objevit ikonka pro nahravani hlasu. Pak je mozne zacit psat text do vyhledavace. Jinak se psani prerusi.\ncy.get('#sb_form_q', {\n  timeout: 6000\n}).type('https://example.cypress.io/{enter}');\ncy.get('.b_topTitle > a').click(); // v cypress.json nutno nastavit: \"chromeWebSecurity\": false ,pokud jdu na jine URL\ncy.contains('get').click(); //prvni element, ktery obsahuje \"get\"",
-              "err": {},
-              "uuid": "de727702-c8cf-440a-9e1e-2497f0d1f725",
-              "parentUUID": "4821e889-63f2-486b-b485-97c7db905b8f",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "login test",
-              "fullTitle": "My First Test login test",
-              "timedOut": null,
-              "duration": 9965,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "cy.visit('https://opensource-demo.orangehrmlive.com/');\ncy.get('#txtUsername').type('Admin');\ncy.get('#txtPassword').type('admin123');\ncy.get('#btnLogin').click();\ncy.get('#menu_admin_viewAdminModule > b').click();\ncy.get('#btnAdd').click();",
-              "err": {},
-              "uuid": "a3ea8594-afd2-415f-ac73-208cb65d22ce",
-              "parentUUID": "4821e889-63f2-486b-b485-97c7db905b8f",
-              "isHook": false,
-              "skipped": false
-            },
-            {
               "title": "assertions",
               "fullTitle": "My First Test assertions",
               "timedOut": null,
-              "duration": 1661,
+              "duration": 2889,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,22 +47,20 @@
               "context": null,
               "code": "cy.visit('example.cypress.io');\ncy.contains('get').click();\ncy.get('#query-btn') //Implicit assertions:\n.should('contain', 'Button').should('have.class', 'query-btn btn btn-primary').should('be.visible').should('be.enabled').and('have.id', 'query-btn'); //Explicit assertions:\nexpect(true).to.be.true;\nlet slovo = 'pokus';\nexpect(slovo).to.be.equal('pokus');\nassert.equal(4, 4, 'rovna se');",
               "err": {},
-              "uuid": "b84181c4-120a-4307-aa8f-1465167da0d1",
-              "parentUUID": "4821e889-63f2-486b-b485-97c7db905b8f",
+              "uuid": "8fd4382c-e160-463e-8a88-dc8200f42f7b",
+              "parentUUID": "920b1c59-cbd9-4def-8236-b932256ceb1c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "de727702-c8cf-440a-9e1e-2497f0d1f725",
-            "a3ea8594-afd2-415f-ac73-208cb65d22ce",
-            "b84181c4-120a-4307-aa8f-1465167da0d1"
+            "8fd4382c-e160-463e-8a88-dc8200f42f7b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 24214,
+          "duration": 2889,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

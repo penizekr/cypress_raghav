@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-04-28T06:59:15.381Z",
-    "end": "2021-04-28T06:59:28.533Z",
-    "duration": 13152,
+    "start": "2021-04-28T07:01:47.725Z",
+    "end": "2021-04-28T07:01:57.855Z",
+    "duration": 10130,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "322d0c65-43e6-400b-9277-b7ca6fe37dd3",
+      "uuid": "d2a228c7-1dd1-49ba-bae4-66212ed8f7f0",
       "title": "",
       "fullFile": "cypress/integration/my_firs_test2.js",
       "file": "cypress/integration/my_firs_test2.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "790f4f31-5ce9-4996-b05a-1c229200b89f",
+          "uuid": "d1953ee4-f3e6-441f-9d9b-9cfd9d246cb0",
           "title": "My First Test DVA",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Gets, types and asserts",
               "fullTitle": "My First Test DVA Gets, types and asserts",
               "timedOut": null,
-              "duration": 5518,
+              "duration": 7127,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('https://example.cypress.io');\ncy.contains('type').click(); // Should be on a new URL which includes '/commands/actions'\ncy.url().should('include', '/commands/actions');\ncy.contains('To type into a DOM element,'); // Get an input, type into it and verify that the value has been updated\ncy.get('.action-email').type('fake@email.com').should('have.value', 'fake@email.com');",
               "err": {},
-              "uuid": "90408f53-c5f7-4e30-9cee-5229ebb549cd",
-              "parentUUID": "790f4f31-5ce9-4996-b05a-1c229200b89f",
+              "uuid": "1eb3a99b-b10b-450a-9881-8de5104261cc",
+              "parentUUID": "d1953ee4-f3e6-441f-9d9b-9cfd9d246cb0",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "90408f53-c5f7-4e30-9cee-5229ebb549cd"
+            "1eb3a99b-b10b-450a-9881-8de5104261cc"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5518,
+          "duration": 7127,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

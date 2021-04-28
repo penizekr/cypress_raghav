@@ -17,7 +17,7 @@ it('Gets, types and asserts', () => {
   cy.get('#btnAdd').click()
  })
 
- it('assertions', () => {
+ it.only('assertions', () => {
   cy.visit('example.cypress.io')
   cy.contains('get').click() 
   cy.get('#query-btn')
