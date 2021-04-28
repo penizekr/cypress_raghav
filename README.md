@@ -87,5 +87,5 @@ npm run test -> spusti script "test", ktery je definovany v package.json
 https://github.com/cypress-io/
 https://github.com/cypress-io/github-action
 
-
+https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
 
