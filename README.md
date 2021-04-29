@@ -88,8 +88,12 @@ npm run test -> spusti script "test", ktery je definovany v package.json
 
 - explanation of GitHub Actions
 	https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions
+	
 https://github.com/cypress-io/
 https://github.com/cypress-io/github-action
+	
+https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
+
 
 
 https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
