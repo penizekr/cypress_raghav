@@ -15,8 +15,8 @@ jobs:
         run: |
           mkdir -p path/to/artifact
           echo hello > path/to/artifact/world.txt
-      #- name: Cypress run
-        #uses: cypress-io/github-action@v2
-        #with:
-          #build: npm run build
-          #start: npm start
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
+          start: npm start
