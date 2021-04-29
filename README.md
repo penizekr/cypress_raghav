@@ -94,6 +94,8 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 
 		- Official Cypress Github Action
 		https://github.com/marketplace/actions/cypress-io
+		
+https://github.com/actions/upload-artifact
 
 	
 https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
