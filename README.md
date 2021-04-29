@@ -97,6 +97,8 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 		
 https://github.com/actions/upload-artifact
 
+- run: touch pokus.txt
+
 	
 https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
 https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
