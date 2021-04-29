@@ -83,9 +83,7 @@ npm run test -> spusti script "test", ktery je definovany v package.json
 - simple web server: 
 - https://github.com/http-party/http-server 
 - npx http-server -p 5555 -> web na 127.0.0.1, v adresari odkus se web server spousti udelat soubor index.html
-
 .....
-
 - explanation of GitHub Actions
 	https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions
 https://github.com/cypress-io/
