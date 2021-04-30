@@ -98,9 +98,12 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 - Action file
 	- cypress_raghav/.github/workflows/cypresse_CI.yml
 
-- disable video saving
+- disable video saving to run via Actions
 	- "video": false -> cypress.json
 	-  cypress run --record false
+
+- upload mochawsome report
+https://docs.knapsackpro.com/2020/how-to-merge-cypress-test-reports-generated-by-mochawesome-on-github-actions
 
 https://github.com/actions/upload-artifact
 
