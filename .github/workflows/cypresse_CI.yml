@@ -20,3 +20,7 @@ jobs:
         with:
           #build: npm run start #build
           start: npm run test --record false
+          
+      - name: copy test results
+          mkdir public
+          cp - r cypress/screenshot cypress/public
