@@ -94,6 +94,9 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 
 		- Official Cypress Github Action
 		https://github.com/marketplace/actions/cypress-io
+		
+- Action file
+	- cypress_raghav/.github/workflows/cypresse_CI.yml
 
 - disable video saving
 	- "video": false -> cypress.json
