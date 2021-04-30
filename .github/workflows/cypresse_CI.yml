@@ -7,10 +7,8 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout #This action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
         uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
       - name: adresar
         run: |
           mkdir -p path/to/artifact
