@@ -104,6 +104,7 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 
 - upload mochawsome report
 https://docs.knapsackpro.com/2020/how-to-merge-cypress-test-reports-generated-by-mochawesome-on-github-actions
+https://medium.com/swlh/publish-your-cypress-test-report-with-github-actions-47248788713a
 
 https://github.com/actions/upload-artifact
 
