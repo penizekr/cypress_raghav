@@ -31,6 +31,7 @@ Your first test
 
 ### Cypress - vseobecne Raghav Pal - HOTOVO
  Raghav Pav https://www.youtube.com/watch?v=CYcdT-tOvB0&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo
+ 
 
 - Folder with project: /home/rp/cypress_raghav
 - npm init -y
@@ -53,13 +54,12 @@ report je v adresari TestReport
 spusteni: npm run pust_a_vygeneruj
 
 - command line run
-npx cypress run -> spusteni v command line
-npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test
-npx cypress run --browser chrome --headless -> pusti s Chrome
-npx cypress open - > spusteni gui
-npm run test -> spusti script "test", ktery je definovany v package.json
-
-	vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run
+	- npx cypress run -> spusteni v command line
+	- npx cypress run -spec "/home/rp/cypress_raghav/cypress/integration/my_firs_test.js" -> spusti specificky test
+	- npx cypress run --browser chrome --headless -> pusti s Chrome
+	- npx cypress open - > spusteni gui
+	- npm run test -> spusti script "test", ktery je definovany v package.json
+	- vic informaci: https://docs.cypress.io/guides/guides/command-line#cypress-run
 
 
 ### Cypress  command line run - HOTOVO
