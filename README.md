@@ -94,7 +94,11 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 
 		- Official Cypress Github Action
 		https://github.com/marketplace/actions/cypress-io
-		
+
+- disable video saving
+	- "video": false -> cypress.json
+	-  cypress run --record false
+
 https://github.com/actions/upload-artifact
 
 - run: touch pokus.txt
