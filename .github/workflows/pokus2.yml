@@ -14,14 +14,3 @@ jobs:
         run: |
           mkdir -p path/to/artifact
           echo hello > path/to/artifact/world.txt
-          
-      - name: CypressRun
-        uses: cypress-io/github-action@v2
-        with:
-          #build: npm run start #build
-          start: npm run test --record false
-          
-      - name: CopyTestResults
-          run:|
-          mkdir public
-          cp - r cypress/screenshot cypress/public
