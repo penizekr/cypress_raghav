@@ -9,26 +9,15 @@ jobs:
     steps:
       - name: Checkout #This action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
         uses: actions/checkout@v2
-        
-      - name: adresar
-        run: |
-          mkdir -p path/to/artifact
-          echo hello > path/to/artifact/world.txt
-          
+            
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
           #build: npm run start #build
           start: npm run test --record false
-          
-      - name: copy test results
-        run: |
-         mkdir public
-         ls
-        #cp - r cypress/screenshot cypress/public
-        
+               
       - name: Upload report
         uses: actions/upload-artifact@master
         with:
           name: E2E Test Reports
-          path: path/to/artifact/
+          path: TestReport/*
