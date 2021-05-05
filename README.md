@@ -107,6 +107,8 @@ https://docs.cypress.io/guides/continuous-integration/introduction
  	- https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts
 	- https://github.com/actions/upload-artifact
 
+- Publish mochawsome report on GitHub Pages
+	- https://medium.com/swlh/publish-your-cypress-test-report-with-github-actions-47248788713a
 	
 https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
 https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
