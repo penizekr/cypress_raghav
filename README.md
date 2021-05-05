@@ -115,7 +115,7 @@ https://github.com/marketplace/actions/cypress-io
 .....
 
 - Dalsi informace o CI
-	https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
-	https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
-	https://github.com/cypress-io/
-	https://github.com/cypress-io/github-action
+	- https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
+	- https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
+	- https://github.com/cypress-io/
+	- https://github.com/cypress-io/github-action
