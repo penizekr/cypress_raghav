@@ -1,4 +1,4 @@
-name: CypressCI
+name: Cypresse CI
 
 on: [workflow_dispatch] # workflow_dispatch allows you to run this workflow manually from the Actions tab
 #on: [push,workflow_dispatch] # workflow_dispatch allows you to run this workflow manually from the Actions tab
@@ -14,7 +14,6 @@ jobs:
         run: |
           mkdir -p path/to/artifact
           echo hello > path/to/artifact/world.txt
-          
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
@@ -22,6 +21,6 @@ jobs:
           start: npm run test --record false
           
       - name: copy test results
-          run:|
-          mkdir public
-          cp - r cypress/screenshot cypress/public
+        run: |
+         mkdir public
+         cp - r cypress/screenshot cypress/public
