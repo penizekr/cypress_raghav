@@ -77,23 +77,16 @@ spusteni: npm run pust_a_vygeneruj
 - install NodeJS plugin into Jenkins
 - Jenkins -> New item -> Freestyle project -> Advance -> Use custom workspace (/home/rp/cypress_raghav) -> Provide Node & npm bin/ folder to PATH -> Add a build step->Execute shell (cypress run - spusti Cypress testy, npm run pust_a_vygeneruj - spusti Cypress testy a vygeneruje Mochawsome report)
 
-###  Cypress integration with GitHub/Lab - TODO 
-
-- integration with GitHub/Lab
-- simple web server: 
-- https://github.com/http-party/http-server 
-- npx http-server -p 5555 -> web na 127.0.0.1, v adresari odkus se web server spousti udelat soubor index.html
-
-.....
-
+###  Cypress integration with GitHub - HOTOVO
+- Spusteni testu pres GitHub. spusteni je nastavene manualne, ale da se nastavit, aby se udelalo po push na git (cypresse_CI.yml). 
 - explanation of GitHub Actions
 https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions
 
 - explanation Cypress GitHub Actions
 https://docs.cypress.io/guides/continuous-integration/introduction
 
-		- Official Cypress Github Action
-		https://github.com/marketplace/actions/cypress-io
+- Official Cypress Github Action
+https://github.com/marketplace/actions/cypress-io
 		
 - Action file
 	- cypress_raghav/.github/workflows/cypresse_CI.yml
@@ -113,6 +106,14 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 	- finalni webova stranka s reportem je zde: https://github.com/penizekr/cypress_raghav/blob/gh-pages/cypress-combined-report.html
 	- generovani reportu se spousti rucne pres Action -> Cypresse CI (soubor https://github.com/penizekr/cypress_raghav/blob/main/.github/workflows/cypresse_CI.yml)
 	- 
+
+- integration with GitHub/Lab
+- simple web server: 
+- https://github.com/http-party/http-server 
+- npx http-server -p 5555 -> web na 127.0.0.1, v adresari odkus se web server spousti udelat soubor index.html
+
+.....
+
 
 
 https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
