@@ -14,6 +14,7 @@ jobs:
         run: |
           mkdir -p path/to/artifact
           echo hello > path/to/artifact/world.txt
+          
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
@@ -23,4 +24,5 @@ jobs:
       - name: copy test results
         run: |
          mkdir public
-         cp - r cypress/screenshot cypress/public
+         ls
+        #cp - r cypress/screenshot cypress/public
