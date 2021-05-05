@@ -102,13 +102,9 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 	- "video": false -> cypress.json
 	-  cypress run --record false
 
-- upload mochawsome report
-https://docs.knapsackpro.com/2020/how-to-merge-cypress-test-reports-generated-by-mochawesome-on-github-actions
-https://medium.com/swlh/publish-your-cypress-test-report-with-github-actions-47248788713a
-
-https://github.com/actions/upload-artifact
-
-- run: touch pokus.txt
+- upload mochawsome report -> upload Artifacts
+ 	- https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts
+	- https://github.com/actions/upload-artifact
 
 	
 https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
