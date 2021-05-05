@@ -1,4 +1,4 @@
-name: CypressCI
+name: Pokus2
 
 on: [workflow_dispatch] # workflow_dispatch allows you to run this workflow manually from the Actions tab
 #on: [push,workflow_dispatch] # workflow_dispatch allows you to run this workflow manually from the Actions tab
