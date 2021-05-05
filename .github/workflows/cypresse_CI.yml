@@ -22,7 +22,7 @@ jobs:
           name: E2E Test Reports
           path: TestReport/*
           
-      - name: Deploy report page
+      - name: Deploy report page #Upload mochawsome report as web page to branch "gh-pages". Adresa: https://penizekr.github.io/cypress_raghav/cypress-combined-report.html
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
