@@ -26,3 +26,9 @@ jobs:
          mkdir public
          ls
         #cp - r cypress/screenshot cypress/public
+        
+      - name: Upload report
+        uses: actions/upload-artifact@master
+        with:
+          name: E2E Test Reports
+          path: path/to/artifact/
