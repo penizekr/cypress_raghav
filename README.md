@@ -103,6 +103,7 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 	-  cypress run --record false
 
 - upload mochawsome report -> upload Artifacts
+	- report je ulozeny u kazdeho spusteni Action jako zip soubor 
  	- https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts
 	- https://github.com/actions/upload-artifact
 
