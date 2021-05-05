@@ -109,7 +109,12 @@ https://docs.cypress.io/guides/continuous-integration/introduction
 
 - Publish mochawsome report on GitHub Pages
 	- https://medium.com/swlh/publish-your-cypress-test-report-with-github-actions-47248788713a
-	
+	- nutne vytvorit branch gh-pages
+	- finalni webova stranka s reportem je zde: https://github.com/penizekr/cypress_raghav/blob/gh-pages/cypress-combined-report.html
+	- generovani reportu se spousti rucne pres Action -> Cypresse CI (soubor https://github.com/penizekr/cypress_raghav/blob/main/.github/workflows/cypresse_CI.yml)
+	- 
+
+
 https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
 https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
 
