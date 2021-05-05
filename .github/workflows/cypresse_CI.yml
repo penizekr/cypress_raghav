@@ -10,13 +10,12 @@ jobs:
       - name: Checkout #This action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
         uses: actions/checkout@v2
             
-      - name: Cypress run
+      - name: Cypress run #Setup a run of Cypress on Github
         uses: cypress-io/github-action@v2
         with:
-          #build: npm run start #build
-          start: npm run test --record false
+          start: npm run test --record false #video from test is not recorded
                
-      - name: Upload report
+      - name: Upload report #Upload mochawsome report do Actions Artifacts
         uses: actions/upload-artifact@master
         with:
           name: E2E Test Reports
