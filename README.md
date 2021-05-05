@@ -107,17 +107,15 @@ https://github.com/marketplace/actions/cypress-io
 	- generovani reportu se spousti rucne pres Action -> Cypresse CI (soubor https://github.com/penizekr/cypress_raghav/blob/main/.github/workflows/cypresse_CI.yml)
 	- 
 
-- integration with GitHub/Lab
-- simple web server: 
-- https://github.com/http-party/http-server 
-- npx http-server -p 5555 -> web na 127.0.0.1, v adresari odkus se web server spousti udelat soubor index.html
+- Pro otestovani, kdy se test na Githubu pusti po PUSH je mozne pouzit jednoduchy web server a na nem hostovat lokalne web server
+	- simple web server: 
+	- https://github.com/http-party/http-server 
+	- npx http-server -p 5555 -> web na 127.0.0.1, v adresari odkus se web server spousti udelat soubor index.html
 
 .....
 
-
-
-https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
-https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
-
-https://github.com/cypress-io/
-https://github.com/cypress-io/github-action
+- Dalsi informace o CI
+	https://docs.cypress.io/guides/continuous-integration/introduction#Setting-up-CI
+	https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup
+	https://github.com/cypress-io/
+	https://github.com/cypress-io/github-action
