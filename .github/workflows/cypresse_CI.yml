@@ -14,6 +14,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           start: npm run test --record false #video from test is not recorded
+          #continue-on-error: true
                
       - name: Upload report #Upload mochawsome report do Actions Artifacts
         uses: actions/upload-artifact@master
